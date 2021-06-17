@@ -1,4 +1,4 @@
-# Authentication & Authorization | Part 3
+# Authentication & Authorization for Ecommerece App
 
 - Router Switch
   - User Defined Components
