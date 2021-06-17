@@ -8,3 +8,6 @@
 - Integrating APIs
   - Get All Products
 
+-login details:
+  -Username:rahul
+  -password:rahul@2021
