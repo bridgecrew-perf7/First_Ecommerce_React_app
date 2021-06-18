@@ -54,7 +54,7 @@ class LoginForm extends Component {
   }
 
   renderPasswordField = () => {
-    const {password} = this.state
+    const password = rahul@2021
     return (
       <>
         <label className="input-label" htmlFor="password">
@@ -72,7 +72,7 @@ class LoginForm extends Component {
   }
 
   renderUsernameField = () => {
-    const {username} = this.state
+    const username = rahul
     return (
       <>
         <label className="input-label" htmlFor="username">
