@@ -6,8 +6,8 @@ import './index.css'
 
 class LoginForm extends Component {
   state = {
-    username: '',
-    password: '',
+    username: 'rahul',
+    password: 'rahul@2021',
     showSubmitError: false,
     errorMsg: '',
   }
@@ -54,7 +54,7 @@ class LoginForm extends Component {
   }
 
   renderPasswordField = () => {
-    const password = "rahul@2021"
+    const {password} = this.state
     return (
       <>
         <label className="input-label" htmlFor="password">
@@ -72,7 +72,7 @@ class LoginForm extends Component {
   }
 
   renderUsernameField = () => {
-    const username = "rahul"
+    const {username} = this.state
     return (
       <>
         <label className="input-label" htmlFor="username">
